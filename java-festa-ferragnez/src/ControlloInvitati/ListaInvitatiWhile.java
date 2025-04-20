@@ -14,11 +14,11 @@ public class ListaInvitatiWhile {
         String nomeDaVerificare = scanner.nextLine();
 
         boolean nomeInserito = false;
-        int i = 0;
+        int i = 0;  // serve per iterare i nome dell'arrei, scorrere
 
-        while (i < listaInvitati.length) {
+        while (i < listaInvitati.length) { //scorriamo tutti i valori dell'array
  
-            if (nomeDaVerificare.equalsIgnoreCase(listaInvitati[i])) {
+            if (nomeDaVerificare.equalsIgnoreCase(listaInvitati[i])) { // quiusiamo la condizione che se il nome inserito è uguale 
                 nomeInserito = true;
                 break;
             }
